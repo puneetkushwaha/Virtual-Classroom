@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Classroom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Login Page -->
+    <div id="login-page" class="page active">
+        <h2>Login to Virtual Classroom</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <!-- Dashboard Page -->
+    <div id="dashboard" class="page">
+        <h3>Welcome, Student</h3>
+        <div class="dashboard-content">
+            <button id="view-classes">View Classes</button>
+            <button id="view-assignments">View Assignments</button>
+            <button id="view-grades">View Grades</button>
+        </div>
+        <button id="to-classroom">Go to Classroom</button>
+    </div>
+
+    <!-- Classroom Page -->
+    <div id="classroom" class="page">
+        <h3>Live Classroom</h3>
+        <p>Live lectures will be available here. (Placeholder for now)</p>
+        <button id="back-to-dashboard">Back to Dashboard</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
